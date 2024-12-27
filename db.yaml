@@ -1,0 +1,5 @@
+- name: configure db file
+  hosts: db
+  become: true
+  roles:
+  - db
