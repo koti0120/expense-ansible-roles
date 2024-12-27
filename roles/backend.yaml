@@ -1,0 +1,5 @@
+- name: configuration of backend file
+  hosts: backend
+  become: true
+  roles:
+  - backend
